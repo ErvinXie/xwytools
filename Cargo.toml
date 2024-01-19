@@ -1,0 +1,18 @@
+[package]
+name = "xwytools"
+authors = ["Ervin Xie <ervinxie@qq.com>"]
+version = "0.1.0"
+edition = "2021"
+description = "A tool lib for myself"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+number_prefix = "0.4"
+crossbeam= "0.8"
+env_logger = "0.10.0"
+log = "0.4.20"
+chrono = "0.4"
+ctrlc = "3.4"
+
